@@ -126,7 +126,8 @@
 
 31. **Question**: Can you use more than one FROM statement in a Dockerfile?
 
-    **Answer**: No, in a Dockerfile, you can have only one "FROM" statement, which specifies the base image for your Docker container.
+    **Answer**: you can use more than one FROM statement in your dockerfile and this's called multi-stage builds
+https://docs.docker.com/build/building/multi-stage/
 
 32. **Question**: What is the difference between CMD and ENTRYPOINT in Dockerfile?
 
